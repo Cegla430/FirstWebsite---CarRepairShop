@@ -64,7 +64,7 @@ nav a.reservation:hover {
 /* Header*/
 header {
     height: 40vh;
-    background-image: url('lambo.webp');
+    background-image: url('images/lambo.webp');
     background-size: cover;
 }
 
@@ -90,6 +90,11 @@ main p.description {
     line-height: 180%;
 }
 
+main section.features {
+    background-color: beige;
+    padding-bottom: 30px;
+}
+
 main div.feature {
     display: inline-block;
     width: 33.33%;
@@ -99,6 +104,10 @@ main div.image {
     height: 200px;
     background-color: royalblue;
     margin: 20px 30px;
+}
+
+main div.image:hover {
+    background-color: aqua;
 }
 
 main h2 {
